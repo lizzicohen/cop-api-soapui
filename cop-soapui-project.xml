@@ -3625,4 +3625,60 @@ if(!flagFile.exists()){
 	flagFile.createNewFile();
 	flagFile.write("1");
 }
-flagFile.write("1");</con:setupScript><con:reportParameters/></con:testSuite><con:requirements/><con:properties/><con:wssContainer/><con:databaseConnectionContainer><con:databaseConnection><con:name>1</con:name><con:driver>org.postgresql.Driver</con:driver><con:connectionString>jdbc:postgresql://192.168.12.172:5433/cop_main_test?user=postgres&amp;password=PASS_VALUE</con:connectionString><con:password>postgres</con:password></con:databaseConnection></con:databaseConnectionContainer><con:oAuth2ProfileContainer/><con:reporting><con:xmlTemplates/><con:parameters/></con:reporting><con:sensitiveInformation/></con:soapui-project>
+flagFile.write("1");</con:setupScript><con:tearDownScript>import java.io.*;
+import jxl.*;
+import jxl.write.*;
+import java.util.*;
+
+def updateOutput(writableWorkbook,sheetName,column,row,content,isFormula){
+		Sheet[] sheet= writableWorkbook.getSheets();
+		ws = writableWorkbook.getSheet(sheetName);
+		if(ws==null){
+		ws = writableWorkbook.createSheet(sheetName,sheet.length)
+		}
+		if(isFormula==1){  
+			Formula f = new Formula(column,row,content);  
+			ws.addCell(f);
+		}else{
+		if(content=="Pass"){
+			def wc = new jxl.write.WritableCellFormat();
+			wc.setBackground(jxl.format.Colour.GREEN);
+			ws.addCell(new jxl.write.Label(column,row,content,wc));
+		}else if(content=="Fail"){
+			def wc = new jxl.write.WritableCellFormat();
+			wc.setBackground(jxl.format.Colour.RED);
+			ws.addCell(new jxl.write.Label(column,row,content,wc));
+		}else{
+		ws.addCell(new jxl.write.Label(column,row,content));
+		}
+		}
+}
+def flagFileName = (context.expand('${#TestSuite#LogFolder}')+"flag.txt");
+def flagFile = new File(flagFileName);
+def flag = flagFile.getText();
+def xlsName = context.expand('${#TestSuite#ExcelReport}');
+statisticsSheetName = "Result";
+
+try{
+Workbook workbook=Workbook.getWorkbook(new File(xlsName));
+writableWorkbook =  Workbook.createWorkbook(new File(xlsName), workbook);
+updateOutput(writableWorkbook,statisticsSheetName,14,0,"Pass",0);
+updateOutput(writableWorkbook,statisticsSheetName,15,0,"Fail",0);
+updateOutput(writableWorkbook,statisticsSheetName,16,0,"Total",0);
+updateOutput(writableWorkbook,statisticsSheetName,13,1,"Number",0);
+updateOutput(writableWorkbook,statisticsSheetName,13,2,"Percentage",0);
+passNumFormula = "COUNTIF(E2:E${flag},\"Pass\")"
+failNumFormula = "COUNTIF(E2:E${flag},\"Fail\")"
+updateOutput(writableWorkbook,statisticsSheetName,14,1,passNumFormula,1);
+updateOutput(writableWorkbook,statisticsSheetName,15,1,failNumFormula,1);
+updateOutput(writableWorkbook,statisticsSheetName,16,1,"SUM(O2:P2)",1);
+updateOutput(writableWorkbook,statisticsSheetName,14,2,"O2/Q2",1);
+updateOutput(writableWorkbook,statisticsSheetName,15,2,"P2/Q2",1);
+writableWorkbook.write();
+}catch (Exception e){      
+	e.printStackTrace();
+	log.info(e)
+}finally{
+	writableWorkbook.close();
+}
+</con:tearDownScript><con:reportParameters/></con:testSuite><con:requirements/><con:properties/><con:wssContainer/><con:databaseConnectionContainer><con:databaseConnection><con:name>1</con:name><con:driver>org.postgresql.Driver</con:driver><con:connectionString>jdbc:postgresql://192.168.12.172:5433/cop_main_test?user=postgres&amp;password=PASS_VALUE</con:connectionString><con:password>postgres</con:password></con:databaseConnection></con:databaseConnectionContainer><con:oAuth2ProfileContainer/><con:reporting><con:xmlTemplates/><con:parameters/></con:reporting><con:sensitiveInformation/></con:soapui-project>
