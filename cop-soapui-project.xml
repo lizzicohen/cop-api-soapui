@@ -191,10 +191,15 @@ def writeFlag(flagFileName){
 
 def filterCode(wsdlstring){
 	def strlen = wsdlstring.length();
-	for(def i = 0;i &lt; strlen-12;i++){
+	for(def i = 0;i &lt; strlen-15;i++){
 		if(wsdlstring[i..i+3] == "code"){
-			code = wsdlstring[i+7..i+11]
-			break
+			if(wsdlstring[i+7..i+11]=="pages"){
+				code = wsdlstring[i+7..i+15]
+				break
+			}else{
+					code = wsdlstring[i+7..i+11]
+					break
+				}
 		}else{
 			code = "Error"
 		}
@@ -284,10 +289,15 @@ def writeFlag(flagFileName){
 
 def filterCode(wsdlstring){
 	def strlen = wsdlstring.length();
-	for(def i = 0;i &lt; strlen-12;i++){
+	for(def i = 0;i &lt; strlen-15;i++){
 		if(wsdlstring[i..i+3] == "code"){
-			code = wsdlstring[i+7..i+11]
-			break
+			if(wsdlstring[i+7..i+11]=="pages"){
+				code = wsdlstring[i+7..i+15]
+				break
+			}else{
+					code = wsdlstring[i+7..i+11]
+					break
+				}
 		}else{
 			code = "Error"
 		}
@@ -378,10 +388,15 @@ def writeFlag(flagFileName){
 
 def filterCode(wsdlstring){
 	def strlen = wsdlstring.length();
-	for(def i = 0;i &lt; strlen-12;i++){
+	for(def i = 0;i &lt; strlen-15;i++){
 		if(wsdlstring[i..i+3] == "code"){
-			code = wsdlstring[i+7..i+11]
-			break
+			if(wsdlstring[i+7..i+11]=="pages"){
+				code = wsdlstring[i+7..i+15]
+				break
+			}else{
+					code = wsdlstring[i+7..i+11]
+					break
+				}
 		}else{
 			code = "Error"
 		}
@@ -473,10 +488,15 @@ def writeFlag(flagFileName){
 
 def filterCode(wsdlstring){
 	def strlen = wsdlstring.length();
-	for(def i = 0;i &lt; strlen-12;i++){
+	for(def i = 0;i &lt; strlen-15;i++){
 		if(wsdlstring[i..i+3] == "code"){
-			code = wsdlstring[i+7..i+11]
-			break
+			if(wsdlstring[i+7..i+11]=="pages"){
+				code = wsdlstring[i+7..i+15]
+				break
+			}else{
+					code = wsdlstring[i+7..i+11]
+					break
+				}
 		}else{
 			code = "Error"
 		}
@@ -566,10 +586,15 @@ def writeFlag(flagFileName){
 
 def filterCode(wsdlstring){
 	def strlen = wsdlstring.length();
-	for(def i = 0;i &lt; strlen-12;i++){
+	for(def i = 0;i &lt; strlen-15;i++){
 		if(wsdlstring[i..i+3] == "code"){
-			code = wsdlstring[i+7..i+11]
-			break
+			if(wsdlstring[i+7..i+11]=="pages"){
+				code = wsdlstring[i+7..i+15]
+				break
+			}else{
+					code = wsdlstring[i+7..i+11]
+					break
+				}
 		}else{
 			code = "Error"
 		}
@@ -662,10 +687,15 @@ def writeFlag(flagFileName){
 
 def filterCode(wsdlstring){
 	def strlen = wsdlstring.length();
-	for(def i = 0;i &lt; strlen-12;i++){
+	for(def i = 0;i &lt; strlen-15;i++){
 		if(wsdlstring[i..i+3] == "code"){
-			code = wsdlstring[i+7..i+11]
-			break
+			if(wsdlstring[i+7..i+11]=="pages"){
+				code = wsdlstring[i+7..i+15]
+				break
+			}else{
+					code = wsdlstring[i+7..i+11]
+					break
+				}
 		}else{
 			code = "Error"
 		}
@@ -766,10 +796,15 @@ def writeFlag(flagFileName){
 
 def filterCode(wsdlstring){
 	def strlen = wsdlstring.length();
-	for(def i = 0;i &lt; strlen-12;i++){
+	for(def i = 0;i &lt; strlen-15;i++){
 		if(wsdlstring[i..i+3] == "code"){
-			code = wsdlstring[i+7..i+11]
-			break
+			if(wsdlstring[i+7..i+11]=="pages"){
+				code = wsdlstring[i+7..i+15]
+				break
+			}else{
+					code = wsdlstring[i+7..i+11]
+					break
+				}
 		}else{
 			code = "Error"
 		}
@@ -872,10 +907,15 @@ def writeFlag(flagFileName){
 
 def filterCode(wsdlstring){
 	def strlen = wsdlstring.length();
-	for(def i = 0;i &lt; strlen-12;i++){
+	for(def i = 0;i &lt; strlen-15;i++){
 		if(wsdlstring[i..i+3] == "code"){
-			code = wsdlstring[i+7..i+11]
-			break
+			if(wsdlstring[i+7..i+11]=="pages"){
+				code = wsdlstring[i+7..i+15]
+				break
+			}else{
+					code = wsdlstring[i+7..i+11]
+					break
+				}
 		}else{
 			code = "Error"
 		}
@@ -965,10 +1005,15 @@ def writeFlag(flagFileName){
 
 def filterCode(wsdlstring){
 	def strlen = wsdlstring.length();
-	for(def i = 0;i &lt; strlen-12;i++){
+	for(def i = 0;i &lt; strlen-15;i++){
 		if(wsdlstring[i..i+3] == "code"){
-			code = wsdlstring[i+7..i+11]
-			break
+			if(wsdlstring[i+7..i+11]=="pages"){
+				code = wsdlstring[i+7..i+15]
+				break
+			}else{
+					code = wsdlstring[i+7..i+11]
+					break
+				}
 		}else{
 			code = "Error"
 		}
@@ -1060,10 +1105,15 @@ def writeFlag(flagFileName){
 
 def filterCode(wsdlstring){
 	def strlen = wsdlstring.length();
-	for(def i = 0;i &lt; strlen-12;i++){
+	for(def i = 0;i &lt; strlen-15;i++){
 		if(wsdlstring[i..i+3] == "code"){
-			code = wsdlstring[i+7..i+11]
-			break
+			if(wsdlstring[i+7..i+11]=="pages"){
+				code = wsdlstring[i+7..i+15]
+				break
+			}else{
+					code = wsdlstring[i+7..i+11]
+					break
+				}
 		}else{
 			code = "Error"
 		}
@@ -1168,10 +1218,15 @@ def writeFlag(flagFileName){
 
 def filterCode(wsdlstring){
 	def strlen = wsdlstring.length();
-	for(def i = 0;i &lt; strlen-12;i++){
+	for(def i = 0;i &lt; strlen-15;i++){
 		if(wsdlstring[i..i+3] == "code"){
-			code = wsdlstring[i+7..i+11]
-			break
+			if(wsdlstring[i+7..i+11]=="pages"){
+				code = wsdlstring[i+7..i+15]
+				break
+			}else{
+					code = wsdlstring[i+7..i+11]
+					break
+				}
 		}else{
 			code = "Error"
 		}
@@ -1263,10 +1318,15 @@ def writeFlag(flagFileName){
 
 def filterCode(wsdlstring){
 	def strlen = wsdlstring.length();
-	for(def i = 0;i &lt; strlen-12;i++){
+	for(def i = 0;i &lt; strlen-15;i++){
 		if(wsdlstring[i..i+3] == "code"){
-			code = wsdlstring[i+7..i+11]
-			break
+			if(wsdlstring[i+7..i+11]=="pages"){
+				code = wsdlstring[i+7..i+15]
+				break
+			}else{
+					code = wsdlstring[i+7..i+11]
+					break
+				}
 		}else{
 			code = "Error"
 		}
@@ -1356,10 +1416,15 @@ def writeFlag(flagFileName){
 
 def filterCode(wsdlstring){
 	def strlen = wsdlstring.length();
-	for(def i = 0;i &lt; strlen-12;i++){
+	for(def i = 0;i &lt; strlen-15;i++){
 		if(wsdlstring[i..i+3] == "code"){
-			code = wsdlstring[i+7..i+11]
-			break
+			if(wsdlstring[i+7..i+11]=="pages"){
+				code = wsdlstring[i+7..i+15]
+				break
+			}else{
+					code = wsdlstring[i+7..i+11]
+					break
+				}
 		}else{
 			code = "Error"
 		}
@@ -1436,10 +1501,15 @@ def writeFlag(flagFileName){
 
 def filterCode(wsdlstring){
 	def strlen = wsdlstring.length();
-	for(def i = 0;i &lt; strlen-12;i++){
+	for(def i = 0;i &lt; strlen-15;i++){
 		if(wsdlstring[i..i+3] == "code"){
-			code = wsdlstring[i+7..i+11]
-			break
+			if(wsdlstring[i+7..i+11]=="pages"){
+				code = wsdlstring[i+7..i+15]
+				break
+			}else{
+					code = wsdlstring[i+7..i+11]
+					break
+				}
 		}else{
 			code = "Error"
 		}
@@ -1533,10 +1603,15 @@ def writeFlag(flagFileName){
 
 def filterCode(wsdlstring){
 	def strlen = wsdlstring.length();
-	for(def i = 0;i &lt; strlen-12;i++){
+	for(def i = 0;i &lt; strlen-15;i++){
 		if(wsdlstring[i..i+3] == "code"){
-			code = wsdlstring[i+7..i+11]
-			break
+			if(wsdlstring[i+7..i+11]=="pages"){
+				code = wsdlstring[i+7..i+15]
+				break
+			}else{
+					code = wsdlstring[i+7..i+11]
+					break
+				}
 		}else{
 			code = "Error"
 		}
@@ -1631,10 +1706,15 @@ def writeFlag(flagFileName){
 
 def filterCode(wsdlstring){
 	def strlen = wsdlstring.length();
-	for(def i = 0;i &lt; strlen-12;i++){
+	for(def i = 0;i &lt; strlen-15;i++){
 		if(wsdlstring[i..i+3] == "code"){
-			code = wsdlstring[i+7..i+11]
-			break
+			if(wsdlstring[i+7..i+11]=="pages"){
+				code = wsdlstring[i+7..i+15]
+				break
+			}else{
+					code = wsdlstring[i+7..i+11]
+					break
+				}
 		}else{
 			code = "Error"
 		}
@@ -1724,10 +1804,15 @@ def writeFlag(flagFileName){
 
 def filterCode(wsdlstring){
 	def strlen = wsdlstring.length();
-	for(def i = 0;i &lt; strlen-12;i++){
+	for(def i = 0;i &lt; strlen-15;i++){
 		if(wsdlstring[i..i+3] == "code"){
-			code = wsdlstring[i+7..i+11]
-			break
+			if(wsdlstring[i+7..i+11]=="pages"){
+				code = wsdlstring[i+7..i+15]
+				break
+			}else{
+					code = wsdlstring[i+7..i+11]
+					break
+				}
 		}else{
 			code = "Error"
 		}
@@ -1831,10 +1916,15 @@ def writeFlag(flagFileName){
 
 def filterCode(wsdlstring){
 	def strlen = wsdlstring.length();
-	for(def i = 0;i &lt; strlen-12;i++){
+	for(def i = 0;i &lt; strlen-15;i++){
 		if(wsdlstring[i..i+3] == "code"){
-			code = wsdlstring[i+7..i+11]
-			break
+			if(wsdlstring[i+7..i+11]=="pages"){
+				code = wsdlstring[i+7..i+15]
+				break
+			}else{
+					code = wsdlstring[i+7..i+11]
+					break
+				}
 		}else{
 			code = "Error"
 		}
@@ -1910,10 +2000,15 @@ def writeFlag(flagFileName){
 
 def filterCode(wsdlstring){
 	def strlen = wsdlstring.length();
-	for(def i = 0;i &lt; strlen-12;i++){
+	for(def i = 0;i &lt; strlen-15;i++){
 		if(wsdlstring[i..i+3] == "code"){
-			code = wsdlstring[i+7..i+11]
-			break
+			if(wsdlstring[i+7..i+11]=="pages"){
+				code = wsdlstring[i+7..i+15]
+				break
+			}else{
+					code = wsdlstring[i+7..i+11]
+					break
+				}
 		}else{
 			code = "Error"
 		}
@@ -1989,10 +2084,15 @@ def writeFlag(flagFileName){
 
 def filterCode(wsdlstring){
 	def strlen = wsdlstring.length();
-	for(def i = 0;i &lt; strlen-12;i++){
+	for(def i = 0;i &lt; strlen-15;i++){
 		if(wsdlstring[i..i+3] == "code"){
-			code = wsdlstring[i+7..i+11]
-			break
+			if(wsdlstring[i+7..i+11]=="pages"){
+				code = wsdlstring[i+7..i+15]
+				break
+			}else{
+					code = wsdlstring[i+7..i+11]
+					break
+				}
 		}else{
 			code = "Error"
 		}
@@ -2083,10 +2183,15 @@ def writeFlag(flagFileName){
 
 def filterCode(wsdlstring){
 	def strlen = wsdlstring.length();
-	for(def i = 0;i &lt; strlen-12;i++){
+	for(def i = 0;i &lt; strlen-15;i++){
 		if(wsdlstring[i..i+3] == "code"){
-			code = wsdlstring[i+7..i+11]
-			break
+			if(wsdlstring[i+7..i+11]=="pages"){
+				code = wsdlstring[i+7..i+15]
+				break
+			}else{
+					code = wsdlstring[i+7..i+11]
+					break
+				}
 		}else{
 			code = "Error"
 		}
@@ -2187,10 +2292,15 @@ def writeFlag(flagFileName){
 
 def filterCode(wsdlstring){
 	def strlen = wsdlstring.length();
-	for(def i = 0;i &lt; strlen-12;i++){
+	for(def i = 0;i &lt; strlen-15;i++){
 		if(wsdlstring[i..i+3] == "code"){
-			code = wsdlstring[i+7..i+11]
-			break
+			if(wsdlstring[i+7..i+11]=="pages"){
+				code = wsdlstring[i+7..i+15]
+				break
+			}else{
+					code = wsdlstring[i+7..i+11]
+					break
+				}
 		}else{
 			code = "Error"
 		}
@@ -2280,10 +2390,15 @@ def writeFlag(flagFileName){
 
 def filterCode(wsdlstring){
 	def strlen = wsdlstring.length();
-	for(def i = 0;i &lt; strlen-12;i++){
+	for(def i = 0;i &lt; strlen-15;i++){
 		if(wsdlstring[i..i+3] == "code"){
-			code = wsdlstring[i+7..i+11]
-			break
+			if(wsdlstring[i+7..i+11]=="pages"){
+				code = wsdlstring[i+7..i+15]
+				break
+			}else{
+					code = wsdlstring[i+7..i+11]
+					break
+				}
 		}else{
 			code = "Error"
 		}
@@ -2362,10 +2477,15 @@ def writeFlag(flagFileName){
 
 def filterCode(wsdlstring){
 	def strlen = wsdlstring.length();
-	for(def i = 0;i &lt; strlen-12;i++){
+	for(def i = 0;i &lt; strlen-15;i++){
 		if(wsdlstring[i..i+3] == "code"){
-			code = wsdlstring[i+7..i+11]
-			break
+			if(wsdlstring[i+7..i+11]=="pages"){
+				code = wsdlstring[i+7..i+15]
+				break
+			}else{
+					code = wsdlstring[i+7..i+11]
+					break
+				}
 		}else{
 			code = "Error"
 		}
@@ -2454,10 +2574,15 @@ def writeFlag(flagFileName){
 
 def filterCode(wsdlstring){
 	def strlen = wsdlstring.length();
-	for(def i = 0;i &lt; strlen-12;i++){
+	for(def i = 0;i &lt; strlen-15;i++){
 		if(wsdlstring[i..i+3] == "code"){
-			code = wsdlstring[i+7..i+11]
-			break
+			if(wsdlstring[i+7..i+11]=="pages"){
+				code = wsdlstring[i+7..i+15]
+				break
+			}else{
+					code = wsdlstring[i+7..i+11]
+					break
+				}
 		}else{
 			code = "Error"
 		}
@@ -2535,10 +2660,15 @@ def writeFlag(flagFileName){
 
 def filterCode(wsdlstring){
 	def strlen = wsdlstring.length();
-	for(def i = 0;i &lt; strlen-12;i++){
+	for(def i = 0;i &lt; strlen-15;i++){
 		if(wsdlstring[i..i+3] == "code"){
-			code = wsdlstring[i+7..i+11]
-			break
+			if(wsdlstring[i+7..i+11]=="pages"){
+				code = wsdlstring[i+7..i+15]
+				break
+			}else{
+					code = wsdlstring[i+7..i+11]
+					break
+				}
 		}else{
 			code = "Error"
 		}
@@ -2618,10 +2748,15 @@ def writeFlag(flagFileName){
 
 def filterCode(wsdlstring){
 	def strlen = wsdlstring.length();
-	for(def i = 0;i &lt; strlen-12;i++){
+	for(def i = 0;i &lt; strlen-15;i++){
 		if(wsdlstring[i..i+3] == "code"){
-			code = wsdlstring[i+7..i+11]
-			break
+			if(wsdlstring[i+7..i+11]=="pages"){
+				code = wsdlstring[i+7..i+15]
+				break
+			}else{
+					code = wsdlstring[i+7..i+11]
+					break
+				}
 		}else{
 			code = "Error"
 		}
@@ -2664,10 +2799,15 @@ writableWorkbook.close();
 }
 </script></con:config></con:testStep><con:testStep type="datasourceloop" name="DataSource Loop"><con:settings/><con:config><dataSourceStep>DataSource</dataSourceStep><targetStep>attentionAddAddr</targetStep></con:config></con:testStep><con:testStep type="groovy" name="Groovy Script" disabled="true"><con:settings/><con:config><script>def filterCode(wsdlstring){
 	def strlen = wsdlstring.length();
-	for(def i = 0;i &lt; strlen-12;i++){
+	for(def i = 0;i &lt; strlen-15;i++){
 		if(wsdlstring[i..i+3] == "code"){
-			code = wsdlstring[i+7..i+11]
-			break
+			if(wsdlstring[i+7..i+11]=="pages"){
+				code = wsdlstring[i+7..i+15]
+				break
+			}else{
+					code = wsdlstring[i+7..i+11]
+					break
+				}
 		}else{
 			code = "Error"
 		}
@@ -2728,10 +2868,15 @@ def writeFlag(flagFileName){
 
 def filterCode(wsdlstring){
 	def strlen = wsdlstring.length();
-	for(def i = 0;i &lt; strlen-12;i++){
+	for(def i = 0;i &lt; strlen-15;i++){
 		if(wsdlstring[i..i+3] == "code"){
-			code = wsdlstring[i+7..i+11]
-			break
+			if(wsdlstring[i+7..i+11]=="pages"){
+				code = wsdlstring[i+7..i+15]
+				break
+			}else{
+					code = wsdlstring[i+7..i+11]
+					break
+				}
 		}else{
 			code = "Error"
 		}
@@ -2809,10 +2954,15 @@ def writeFlag(flagFileName){
 
 def filterCode(wsdlstring){
 	def strlen = wsdlstring.length();
-	for(def i = 0;i &lt; strlen-12;i++){
+	for(def i = 0;i &lt; strlen-15;i++){
 		if(wsdlstring[i..i+3] == "code"){
-			code = wsdlstring[i+7..i+11]
-			break
+			if(wsdlstring[i+7..i+11]=="pages"){
+				code = wsdlstring[i+7..i+15]
+				break
+			}else{
+					code = wsdlstring[i+7..i+11]
+					break
+				}
 		}else{
 			code = "Error"
 		}
@@ -2889,10 +3039,15 @@ def writeFlag(flagFileName){
 
 def filterCode(wsdlstring){
 	def strlen = wsdlstring.length();
-	for(def i = 0;i &lt; strlen-12;i++){
+	for(def i = 0;i &lt; strlen-15;i++){
 		if(wsdlstring[i..i+3] == "code"){
-			code = wsdlstring[i+7..i+11]
-			break
+			if(wsdlstring[i+7..i+11]=="pages"){
+				code = wsdlstring[i+7..i+15]
+				break
+			}else{
+					code = wsdlstring[i+7..i+11]
+					break
+				}
 		}else{
 			code = "Error"
 		}
@@ -2989,10 +3144,15 @@ def writeFlag(flagFileName){
 
 def filterCode(wsdlstring){
 	def strlen = wsdlstring.length();
-	for(def i = 0;i &lt; strlen-12;i++){
+	for(def i = 0;i &lt; strlen-15;i++){
 		if(wsdlstring[i..i+3] == "code"){
-			code = wsdlstring[i+7..i+11]
-			break
+			if(wsdlstring[i+7..i+11]=="pages"){
+				code = wsdlstring[i+7..i+15]
+				break
+			}else{
+					code = wsdlstring[i+7..i+11]
+					break
+				}
 		}else{
 			code = "Error"
 		}
@@ -3076,10 +3236,15 @@ def writeFlag(flagFileName){
 
 def filterCode(wsdlstring){
 	def strlen = wsdlstring.length();
-	for(def i = 0;i &lt; strlen-12;i++){
+	for(def i = 0;i &lt; strlen-15;i++){
 		if(wsdlstring[i..i+3] == "code"){
-			code = wsdlstring[i+7..i+11]
-			break
+			if(wsdlstring[i+7..i+11]=="pages"){
+				code = wsdlstring[i+7..i+15]
+				break
+			}else{
+					code = wsdlstring[i+7..i+11]
+					break
+				}
 		}else{
 			code = "Error"
 		}
@@ -3173,10 +3338,15 @@ def writeFlag(flagFileName){
 
 def filterCode(wsdlstring){
 	def strlen = wsdlstring.length();
-	for(def i = 0;i &lt; strlen-12;i++){
+	for(def i = 0;i &lt; strlen-15;i++){
 		if(wsdlstring[i..i+3] == "code"){
-			code = wsdlstring[i+7..i+11]
-			break
+			if(wsdlstring[i+7..i+11]=="pages"){
+				code = wsdlstring[i+7..i+15]
+				break
+			}else{
+					code = wsdlstring[i+7..i+11]
+					break
+				}
 		}else{
 			code = "Error"
 		}
@@ -3258,10 +3428,15 @@ def writeFlag(flagFileName){
 
 def filterCode(wsdlstring){
 	def strlen = wsdlstring.length();
-	for(def i = 0;i &lt; strlen-12;i++){
+	for(def i = 0;i &lt; strlen-15;i++){
 		if(wsdlstring[i..i+3] == "code"){
-			code = wsdlstring[i+7..i+11]
-			break
+			if(wsdlstring[i+7..i+11]=="pages"){
+				code = wsdlstring[i+7..i+15]
+				break
+			}else{
+					code = wsdlstring[i+7..i+11]
+					break
+				}
 		}else{
 			code = "Error"
 		}
@@ -3345,10 +3520,15 @@ def writeFlag(flagFileName){
 
 def filterCode(wsdlstring){
 	def strlen = wsdlstring.length();
-	for(def i = 0;i &lt; strlen-12;i++){
+	for(def i = 0;i &lt; strlen-15;i++){
 		if(wsdlstring[i..i+3] == "code"){
-			code = wsdlstring[i+7..i+11]
-			break
+			if(wsdlstring[i+7..i+11]=="pages"){
+				code = wsdlstring[i+7..i+15]
+				break
+			}else{
+					code = wsdlstring[i+7..i+11]
+					break
+				}
 		}else{
 			code = "Error"
 		}
@@ -3442,10 +3622,15 @@ def writeFlag(flagFileName){
 
 def filterCode(wsdlstring){
 	def strlen = wsdlstring.length();
-	for(def i = 0;i &lt; strlen-12;i++){
+	for(def i = 0;i &lt; strlen-15;i++){
 		if(wsdlstring[i..i+3] == "code"){
-			code = wsdlstring[i+7..i+11]
-			break
+			if(wsdlstring[i+7..i+11]=="pages"){
+				code = wsdlstring[i+7..i+15]
+				break
+			}else{
+					code = wsdlstring[i+7..i+11]
+					break
+				}
 		}else{
 			code = "Error"
 		}
@@ -3540,10 +3725,15 @@ def writeFlag(flagFileName){
 
 def filterCode(wsdlstring){
 	def strlen = wsdlstring.length();
-	for(def i = 0;i &lt; strlen-12;i++){
+	for(def i = 0;i &lt; strlen-15;i++){
 		if(wsdlstring[i..i+3] == "code"){
-			code = wsdlstring[i+7..i+11]
-			break
+			if(wsdlstring[i+7..i+11]=="pages"){
+				code = wsdlstring[i+7..i+15]
+				break
+			}else{
+					code = wsdlstring[i+7..i+11]
+					break
+				}
 		}else{
 			code = "Error"
 		}
