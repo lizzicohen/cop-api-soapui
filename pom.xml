@@ -36,10 +36,7 @@
                             <projectFile>cop-soapui-project.xml</projectFile>
 							<testSuite>Main</testSuite>
 							<testFailIgnore>true</testFailIgnore>
-							<testSuite>Permission</testSuite>
-							<testFailIgnore>true</testFailIgnore>
-							<testSuite>Message</testSuite>
-							<testFailIgnore>true</testFailIgnore>
+					
                         </configuration>
                     </execution>
                 </executions>
