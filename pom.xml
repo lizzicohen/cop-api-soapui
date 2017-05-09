@@ -50,6 +50,7 @@
 							<testFailIgnore>true</testFailIgnore>
 					
                         </configuration>
+						</execution>
 						<execution>
                         <phase>test</phase>
                         <goals>
@@ -61,7 +62,7 @@
 							<testFailIgnore>true</testFailIgnore>
 					
                         </configuration>
-                    </execution>
+                    
                     </execution>
                 </executions>
             </plugin>
