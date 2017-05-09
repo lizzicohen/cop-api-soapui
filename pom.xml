@@ -39,6 +39,30 @@
 					
                         </configuration>
                     </execution>
+					<execution>
+                        <phase>test</phase>
+                        <goals>
+                            <goal>test</goal>
+                        </goals>
+                        <configuration>
+                            <projectFile>cop-soapui-project.xml</projectFile>
+							<testSuite>Permission</testSuite>
+							<testFailIgnore>true</testFailIgnore>
+					
+                        </configuration>
+						<execution>
+                        <phase>test</phase>
+                        <goals>
+                            <goal>test</goal>
+                        </goals>
+                        <configuration>
+                            <projectFile>cop-soapui-project.xml</projectFile>
+							<testSuite>Message</testSuite>
+							<testFailIgnore>true</testFailIgnore>
+					
+                        </configuration>
+                    </execution>
+                    </execution>
                 </executions>
             </plugin>
         </plugins>
