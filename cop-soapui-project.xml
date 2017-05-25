@@ -4034,48 +4034,7 @@ writableWorkbook.close();
 	e.printStackTrace();
 	log.info(e)
 }
-</script></con:config></con:testStep><con:testStep type="datasourceloop" name="DataSource Loop" id="bfa2099c-6be5-4af1-80a5-4c3d54a539de"><con:settings/><con:config><dataSourceStep>DataSource</dataSourceStep><targetStep>noticeGetApp</targetStep></con:config></con:testStep><con:properties/><con:reportParameters/><con:breakPoints><con:testStepId>42cf6f1c-36e3-4813-a7a4-cb9663432d78</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>a33c873f-894e-4a90-9419-af411be5a77c</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>815adb25-a816-4d6b-8cb6-3b42535adcf3</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>bfa2099c-6be5-4af1-80a5-4c3d54a539de</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>e5b8d2a6-2ef7-4567-b6f6-ca83bb4eb683</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>3e9d0314-3835-453c-b307-b6e67a3ce754</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints></con:testCase><con:properties><con:property><con:name>LogFolder</con:name><con:value/></con:property><con:property><con:name>ExcelReport</con:name><con:value>COP-Report.xls</con:value></con:property><con:property><con:name>DB_Connection_URL</con:name><con:value>jdbc:postgresql://192.168.12.172:5433/cop_main_test</con:value></con:property><con:property><con:name>DB_loginname</con:name><con:value>postgres</con:value></con:property><con:property><con:name>DB_Password</con:name><con:value>postgres</con:value></con:property><con:property><con:name>DB_Driver_Class</con:name><con:value>org.postgresql.Driver</con:value></con:property><con:property><con:name>DB_Permission_Connection_URL</con:name><con:value>jdbc:postgresql://192.168.12.172:5433/cop_permission_test</con:value></con:property></con:properties><con:setupScript>import java.io.*;
-import jxl.*;
-import jxl.write.*;
-import java.util.*;
-
-def updateOutput(writableWorkbook,sheetName,column,row,content){
-		Sheet[] sheet= writableWorkbook.getSheets();
-		ws = writableWorkbook.getSheet(sheetName);
-		if(ws==null){
-		ws = writableWorkbook.createSheet(sheetName,sheet.length)
-		}
-		ws.addCell(new jxl.write.Label(column,row,content));
-}
-
-def logFolder = new File(context.expand('${#TestSuite#LogFolder}'));
-def flagFileName = (context.expand('${#TestSuite#LogFolder}')+"flag.txt");
-def flagFile = new File(flagFileName);
-def excelName = (context.expand('${#TestSuite#ExcelReport}'));
-def worksheet = "Result";
-
-WritableWorkbook workbook;
-try{
-	workbook = Workbook.createWorkbook(new File(excelName));
-	WritableSheet sheet = workbook.createSheet(worksheet, 0);
-	updateOutput(workbook,worksheet,0,0,"Case ID");
-	updateOutput(workbook,worksheet,1,0,"Description");
-	updateOutput(workbook,worksheet,2,0,"Response Code");
-	updateOutput(workbook,worksheet,3,0,"Expected Code");
-	updateOutput(workbook,worksheet,4,0,"Result");
-	updateOutput(workbook,worksheet,5,0,"Response Details");
-	workbook.write();
-	workbook.close();
-}catch(Exception e){
-	e.printStackTrace();
-	log.info(e);
-}
-
-if(!flagFile.exists()){
-	flagFile.createNewFile();
-	flagFile.write("1");
-}
-flagFile.write("1");</con:setupScript><con:tearDownScript>import java.io.*;
+</script></con:config></con:testStep><con:testStep type="datasourceloop" name="DataSource Loop" id="bfa2099c-6be5-4af1-80a5-4c3d54a539de"><con:settings/><con:config><dataSourceStep>DataSource</dataSourceStep><targetStep>noticeGetApp</targetStep></con:config></con:testStep><con:properties/><con:reportParameters/><con:breakPoints><con:testStepId>42cf6f1c-36e3-4813-a7a4-cb9663432d78</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>a33c873f-894e-4a90-9419-af411be5a77c</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>815adb25-a816-4d6b-8cb6-3b42535adcf3</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>bfa2099c-6be5-4af1-80a5-4c3d54a539de</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>e5b8d2a6-2ef7-4567-b6f6-ca83bb4eb683</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints><con:breakPoints><con:testStepId>3e9d0314-3835-453c-b307-b6e67a3ce754</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints></con:testCase><con:properties><con:property><con:name>LogFolder</con:name><con:value/></con:property><con:property><con:name>ExcelReport</con:name><con:value>COP-Report.xls</con:value></con:property><con:property><con:name>DB_Connection_URL</con:name><con:value>jdbc:postgresql://192.168.12.172:5433/cop_main_test</con:value></con:property><con:property><con:name>DB_loginname</con:name><con:value>postgres</con:value></con:property><con:property><con:name>DB_Password</con:name><con:value>postgres</con:value></con:property><con:property><con:name>DB_Driver_Class</con:name><con:value>org.postgresql.Driver</con:value></con:property><con:property><con:name>DB_Permission_Connection_URL</con:name><con:value>jdbc:postgresql://192.168.12.172:5433/cop_permission_test</con:value></con:property></con:properties><con:setupScript/><con:tearDownScript>import java.io.*;
 import jxl.*;
 import jxl.write.*;
 import java.util.*;
@@ -6891,50 +6850,7 @@ writableWorkbook.close();
 	e.printStackTrace();
 	log.info(e)
 }
-</script></con:config></con:testStep><con:testStep type="datasourceloop" name="DataSource Loop"><con:settings/><con:config><dataSourceStep>DataSource</dataSourceStep><targetStep>authLoginApp</targetStep></con:config></con:testStep><con:properties/><con:reportParameters/><con:breakPoints><con:testStepId>2b7e98eb-9948-48cf-924d-52e93bbaf6e2</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints></con:testCase><con:properties><con:property><con:name>LogFolder</con:name><con:value/></con:property><con:property><con:name>DB_Connection_URL</con:name><con:value>jdbc:postgresql://192.168.12.172:5433/cop_permission_test</con:value></con:property><con:property><con:name>DB_loginname</con:name><con:value>postgres</con:value></con:property><con:property><con:name>DB_Password</con:name><con:value>postgres</con:value></con:property><con:property><con:name>DB_Driver_Class</con:name><con:value>org.postgresql.Driver</con:value></con:property><con:property><con:name>ExcelReport</con:name><con:value>COP-Report.xls</con:value></con:property></con:properties><con:setupScript>import java.io.*;
-import jxl.*;
-import jxl.write.*;
-import java.util.*;
-
-def updateOutput(writableWorkbook,sheetName,column,row,content){
-		Sheet[] sheet= writableWorkbook.getSheets();
-		ws = writableWorkbook.getSheet(sheetName);
-		if(ws==null){
-		ws = writableWorkbook.createSheet(sheetName,sheet.length)
-		}
-		ws.addCell(new jxl.write.Label(column,row,content));
-}
-
-def logFolder = new File(context.expand('${#TestSuite#LogFolder}'));
-def flagFileName = (context.expand('${#TestSuite#LogFolder}')+"flag.txt");
-def flagFile = new File(flagFileName);
-def excelName = (context.expand('${#TestSuite#ExcelReport}'));
-def worksheet = "Result";
-
-WritableWorkbook workbook;
-try{
-	workbook = Workbook.createWorkbook(new File(excelName));
-	WritableSheet sheet = workbook.createSheet(worksheet, 0);
-	updateOutput(workbook,worksheet,0,0,"Case ID");
-	updateOutput(workbook,worksheet,1,0,"Description");
-	updateOutput(workbook,worksheet,2,0,"Response Code");
-	updateOutput(workbook,worksheet,3,0,"Expected Code");
-	updateOutput(workbook,worksheet,4,0,"Result");
-	updateOutput(workbook,worksheet,5,0,"Response Details");
-	workbook.write();
-	workbook.close();
-}catch(Exception e){
-	e.printStackTrace();
-	log.info(e);
-}
-if(!logFolder.exists()){
-	logFolder.mkdirs();
-	}
-if(!flagFile.exists()){
-	flagFile.createNewFile();
-	flagFile.write("1");
-}
-flagFile.write("1");</con:setupScript><con:reportParameters/></con:testSuite><con:testSuite name="Message"><con:settings/><con:runType>SEQUENTIAL</con:runType><con:testCase failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="messageAddLoad" searchProperties="true"><con:settings/><con:testStep type="groovy" name="Output"><con:settings/><con:config><script>import java.io.*;
+</script></con:config></con:testStep><con:testStep type="datasourceloop" name="DataSource Loop"><con:settings/><con:config><dataSourceStep>DataSource</dataSourceStep><targetStep>authLoginApp</targetStep></con:config></con:testStep><con:properties/><con:reportParameters/><con:breakPoints><con:testStepId>2b7e98eb-9948-48cf-924d-52e93bbaf6e2</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints></con:testCase><con:properties><con:property><con:name>LogFolder</con:name><con:value/></con:property><con:property><con:name>DB_Connection_URL</con:name><con:value>jdbc:postgresql://192.168.12.172:5433/cop_permission_test</con:value></con:property><con:property><con:name>DB_loginname</con:name><con:value>postgres</con:value></con:property><con:property><con:name>DB_Password</con:name><con:value>postgres</con:value></con:property><con:property><con:name>DB_Driver_Class</con:name><con:value>org.postgresql.Driver</con:value></con:property><con:property><con:name>ExcelReport</con:name><con:value>COP-Report.xls</con:value></con:property></con:properties><con:setupScript/><con:reportParameters/></con:testSuite><con:testSuite name="Message"><con:settings/><con:runType>SEQUENTIAL</con:runType><con:testCase failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="messageAddLoad" searchProperties="true"><con:settings/><con:testStep type="groovy" name="Output"><con:settings/><con:config><script>import java.io.*;
 import jxl.*;
 import jxl.write.*;
 import java.util.*;
@@ -7901,4 +7817,46 @@ writableWorkbook.close();
 	e.printStackTrace();
 	log.info(e)
 }
-</script></con:config></con:testStep><con:testStep type="datasourceloop" name="DataSource Loop"><con:settings/><con:config><dataSourceStep>DataSource</dataSourceStep><targetStep>smsTempQueryById</targetStep></con:config></con:testStep><con:properties/><con:reportParameters/><con:breakPoints><con:testStepId>3670d7fb-e32c-4593-b5d6-ca4991e7ce5d</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints></con:testCase><con:properties><con:property><con:name>LogFolder</con:name><con:value>d:\SoapUI_log\</con:value></con:property><con:property><con:name>DB_Connection_URL</con:name><con:value>jdbc:postgresql://192.168.12.172:5433/cop_main_test</con:value></con:property><con:property><con:name>DB_loginname</con:name><con:value>postgres</con:value></con:property><con:property><con:name>DB_Password</con:name><con:value>postgres</con:value></con:property><con:property><con:name>DB_Driver_Class</con:name><con:value>org.postgresql.Driver</con:value></con:property><con:property><con:name>ExcelReport</con:name><con:value>d:\SoapUI_log\COP-Report.xls</con:value></con:property></con:properties><con:reportParameters/></con:testSuite><con:requirements/><con:properties/><con:wssContainer/><con:databaseConnectionContainer><con:databaseConnection><con:name>1</con:name><con:driver>org.postgresql.Driver</con:driver><con:connectionString>jdbc:postgresql://192.168.12.172:5433/cop_main_test?user=postgres&amp;password=PASS_VALUE</con:connectionString><con:password>postgres</con:password></con:databaseConnection></con:databaseConnectionContainer><con:oAuth2ProfileContainer/><con:reporting><con:xmlTemplates/><con:parameters/></con:reporting><con:sensitiveInformation/></con:soapui-project>
+</script></con:config></con:testStep><con:testStep type="datasourceloop" name="DataSource Loop"><con:settings/><con:config><dataSourceStep>DataSource</dataSourceStep><targetStep>smsTempQueryById</targetStep></con:config></con:testStep><con:properties/><con:reportParameters/><con:breakPoints><con:testStepId>3670d7fb-e32c-4593-b5d6-ca4991e7ce5d</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints></con:testCase><con:properties><con:property><con:name>LogFolder</con:name><con:value>d:\SoapUI_log\</con:value></con:property><con:property><con:name>DB_Connection_URL</con:name><con:value>jdbc:postgresql://192.168.12.172:5433/cop_main_test</con:value></con:property><con:property><con:name>DB_loginname</con:name><con:value>postgres</con:value></con:property><con:property><con:name>DB_Password</con:name><con:value>postgres</con:value></con:property><con:property><con:name>DB_Driver_Class</con:name><con:value>org.postgresql.Driver</con:value></con:property><con:property><con:name>ExcelReport</con:name><con:value>d:\SoapUI_log\COP-Report.xls</con:value></con:property></con:properties><con:reportParameters/></con:testSuite><con:requirements/><con:properties/><con:afterLoadScript>import java.io.*;
+import jxl.*;
+import jxl.write.*;
+import java.util.*;
+
+def updateOutput(writableWorkbook,sheetName,column,row,content){
+		Sheet[] sheet= writableWorkbook.getSheets();
+		ws = writableWorkbook.getSheet(sheetName);
+		if(ws==null){
+		ws = writableWorkbook.createSheet(sheetName,sheet.length)
+		}
+		ws.addCell(new jxl.write.Label(column,row,content));
+}
+
+
+def flagFileName ="flag.txt";
+def flagFile = new File(flagFileName);
+def excelName = "COP-Report.xls";
+def worksheet = "Result";
+
+WritableWorkbook workbook;
+try{
+	workbook = Workbook.createWorkbook(new File(excelName));
+	WritableSheet sheet = workbook.createSheet(worksheet, 0);
+	updateOutput(workbook,worksheet,0,0,"Case ID");
+	updateOutput(workbook,worksheet,1,0,"Description");
+	updateOutput(workbook,worksheet,2,0,"Response Code");
+	updateOutput(workbook,worksheet,3,0,"Expected Code");
+	updateOutput(workbook,worksheet,4,0,"Result");
+	updateOutput(workbook,worksheet,5,0,"Response Details");
+	workbook.write();
+	workbook.close();
+}catch(Exception e){
+	e.printStackTrace();
+	log.info(e);
+}
+
+if(!flagFile.exists()){
+	flagFile.createNewFile();
+	flagFile.write("1");
+}
+flagFile.write("1");
+</con:afterLoadScript><con:wssContainer/><con:databaseConnectionContainer><con:databaseConnection><con:name>1</con:name><con:driver>org.postgresql.Driver</con:driver><con:connectionString>jdbc:postgresql://192.168.12.172:5433/cop_main_test?user=postgres&amp;password=PASS_VALUE</con:connectionString><con:password>postgres</con:password></con:databaseConnection></con:databaseConnectionContainer><con:oAuth2ProfileContainer/><con:reporting><con:xmlTemplates/><con:parameters/></con:reporting><con:sensitiveInformation/></con:soapui-project>
