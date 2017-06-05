@@ -955,6 +955,9 @@ def filterCode(wsdlstring){
 			code = "Error"
 		}
 	}
+	if(strlen &lt; 10){
+		code = "Error"
+	}
 }
 
 def flagFileName = (context.expand('${#TestSuite#LogFolder}')+"flag.txt");
@@ -1052,6 +1055,9 @@ def filterCode(wsdlstring){
 		}else{
 			code = "Error"
 		}
+	}
+	if(strlen &lt; 10){
+		code = "Error"
 	}
 }
 
@@ -1151,6 +1157,9 @@ def filterCode(wsdlstring){
 		}else{
 			code = "Error"
 		}
+	}
+	if(strlen &lt; 10){
+		code = "Error"
 	}
 }
 
@@ -1252,6 +1261,9 @@ def filterCode(wsdlstring){
 			code = "Error"
 		}
 	}
+	if(strlen &lt; 10){
+		code = "Error"
+	}
 }
 
 def flagFileName = (context.expand('${#TestSuite#LogFolder}')+"flag.txt");
@@ -1349,6 +1361,9 @@ def filterCode(wsdlstring){
 		}else{
 			code = "Error"
 		}
+	}
+	if(strlen &lt; 10){
+		code = "Error"
 	}
 }
 
@@ -1450,6 +1465,9 @@ def filterCode(wsdlstring){
 		}else{
 			code = "Error"
 		}
+	}
+	if(strlen &lt; 10){
+		code = "Error"
 	}
 }
 
@@ -1559,6 +1577,9 @@ def filterCode(wsdlstring){
 		}else{
 			code = "Error"
 		}
+	}
+	if(strlen &lt; 10){
+		code = "Error"
 	}
 }
 
@@ -1671,6 +1692,9 @@ def filterCode(wsdlstring){
 			code = "Error"
 		}
 	}
+	if(strlen &lt; 10){
+		code = "Error"
+	}
 }
 
 def flagFileName = (context.expand('${#TestSuite#LogFolder}')+"flag.txt");
@@ -1768,6 +1792,9 @@ def filterCode(wsdlstring){
 		}else{
 			code = "Error"
 		}
+	}
+	if(strlen &lt; 10){
+		code = "Error"
 	}
 }
 
@@ -1868,6 +1895,9 @@ def filterCode(wsdlstring){
 		}else{
 			code = "Error"
 		}
+	}
+	if(strlen &lt; 10){
+		code = "Error"
 	}
 }
 
@@ -1982,6 +2012,9 @@ def filterCode(wsdlstring){
 			code = "Error"
 		}
 	}
+	if(strlen &lt; 10){
+		code = "Error"
+	}
 }
 
 def flagFileName = (context.expand('${#TestSuite#LogFolder}')+"flag.txt");
@@ -2082,6 +2115,9 @@ def filterCode(wsdlstring){
 			code = "Error"
 		}
 	}
+	if(strlen &lt; 10){
+		code = "Error"
+	}
 }
 
 def flagFileName = (context.expand('${#TestSuite#LogFolder}')+"flag.txt");
@@ -2180,6 +2216,9 @@ def filterCode(wsdlstring){
 			code = "Error"
 		}
 	}
+	if(strlen &lt; 10){
+		code = "Error"
+	}
 }
 
 def flagFileName = (context.expand('${#TestSuite#LogFolder}')+"flag.txt");
@@ -2264,6 +2303,9 @@ def filterCode(wsdlstring){
 		}else{
 			code = "Error"
 		}
+	}
+	if(strlen &lt; 10){
+		code = "Error"
 	}
 }
 
@@ -2366,6 +2408,9 @@ def filterCode(wsdlstring){
 		}else{
 			code = "Error"
 		}
+	}
+	if(strlen &lt; 10){
+		code = "Error"
 	}
 }
 
@@ -2478,6 +2523,9 @@ def filterCode(wsdlstring){
 		}else{
 			code = "Error"
 		}
+	}
+	if(strlen &lt; 10){
+		code = "Error"
 	}
 }
 
@@ -2626,6 +2674,9 @@ def filterCode(wsdlstring){
 			code = "Error"
 		}
 	}
+	if(strlen &lt; 10){
+		code = "Error"
+	}
 }
 
 def flagFileName = (context.expand('${#TestSuite#LogFolder}')+"flag.txt");
@@ -2738,6 +2789,9 @@ def filterCode(wsdlstring){
 			code = "Error"
 		}
 	}
+	if(strlen &lt; 10){
+		code = "Error"
+	}
 }
 
 def flagFileName = (context.expand('${#TestSuite#LogFolder}')+"flag.txt");
@@ -2821,6 +2875,9 @@ def filterCode(wsdlstring){
 		}else{
 			code = "Error"
 		}
+	}
+	if(strlen &lt; 10){
+		code = "Error"
 	}
 }
 
@@ -2915,6 +2972,9 @@ def filterCode(wsdlstring){
 		}else{
 			code = "Error"
 		}
+	}
+	if(strlen &lt; 10){
+		code = "Error"
 	}
 }
 
@@ -3014,6 +3074,9 @@ def filterCode(wsdlstring){
 		}else{
 			code = "Error"
 		}
+	}
+	if(strlen &lt; 10){
+		code = "Error"
 	}
 }
 
@@ -3124,6 +3187,9 @@ def filterCode(wsdlstring){
 			code = "Error"
 		}
 	}
+	if(strlen &lt; 10){
+		code = "Error"
+	}
 }
 
 def flagFileName = (context.expand('${#TestSuite#LogFolder}')+"flag.txt");
@@ -3222,6 +3288,9 @@ def filterCode(wsdlstring){
 			code = "Error"
 		}
 	}
+	if(strlen &lt; 10){
+		code = "Error"
+	}
 }
 
 def flagFileName = (context.expand('${#TestSuite#LogFolder}')+"flag.txt");
@@ -3308,6 +3377,9 @@ def filterCode(wsdlstring){
 		}else{
 			code = "Error"
 		}
+	}
+	if(strlen &lt; 10){
+		code = "Error"
 	}
 }
 
@@ -3406,6 +3478,9 @@ def filterCode(wsdlstring){
 			code = "Error"
 		}
 	}
+	if(strlen &lt; 10){
+		code = "Error"
+	}
 }
 
 def flagFileName = (context.expand('${#TestSuite#LogFolder}')+"flag.txt");
@@ -3491,6 +3566,9 @@ def filterCode(wsdlstring){
 		}else{
 			code = "Error"
 		}
+	}
+	if(strlen &lt; 10){
+		code = "Error"
 	}
 }
 
@@ -3580,6 +3658,9 @@ def filterCode(wsdlstring){
 			code = "Error"
 		}
 	}
+	if(strlen &lt; 10){
+		code = "Error"
+	}
 }
 
 def flagFileName = (context.expand('${#TestSuite#LogFolder}')+"flag.txt");
@@ -3630,6 +3711,9 @@ writableWorkbook.close();
 		}else{
 			code = "Error"
 		}
+	}
+	if(strlen &lt; 10){
+		code = "Error"
 	}
 }
 
@@ -3699,6 +3783,9 @@ def filterCode(wsdlstring){
 		}else{
 			code = "Error"
 		}
+	}
+	if(strlen &lt; 10){
+		code = "Error"
 	}
 }
 
@@ -3786,6 +3873,9 @@ def filterCode(wsdlstring){
 			code = "Error"
 		}
 	}
+	if(strlen &lt; 10){
+		code = "Error"
+	}
 }
 
 def flagFileName = (context.expand('${#TestSuite#LogFolder}')+"flag.txt");
@@ -3870,6 +3960,9 @@ def filterCode(wsdlstring){
 		}else{
 			code = "Error"
 		}
+	}
+	if(strlen &lt; 10){
+		code = "Error"
 	}
 }
 
@@ -3976,6 +4069,9 @@ def filterCode(wsdlstring){
 			code = "Error"
 		}
 	}
+	if(strlen &lt; 10){
+		code = "Error"
+	}
 }
 
 def flagFileName = (context.expand('${#TestSuite#LogFolder}')+"flag.txt");
@@ -4067,6 +4163,9 @@ def filterCode(wsdlstring){
 		}else{
 			code = "Error"
 		}
+	}
+	if(strlen &lt; 10){
+		code = "Error"
 	}
 }
 
@@ -4170,6 +4269,9 @@ def filterCode(wsdlstring){
 			code = "Error"
 		}
 	}
+	if(strlen &lt; 10){
+		code = "Error"
+	}
 }
 
 def flagFileName = (context.expand('${#TestSuite#LogFolder}')+"flag.txt");
@@ -4259,6 +4361,9 @@ def filterCode(wsdlstring){
 		}else{
 			code = "Error"
 		}
+	}
+	if(strlen &lt; 10){
+		code = "Error"
 	}
 }
 
@@ -4351,6 +4456,9 @@ def filterCode(wsdlstring){
 		}else{
 			code = "Error"
 		}
+	}
+	if(strlen &lt; 10){
+		code = "Error"
 	}
 }
 
@@ -4454,6 +4562,9 @@ def filterCode(wsdlstring){
 			code = "Error"
 		}
 	}
+	if(strlen &lt; 10){
+		code = "Error"
+	}
 }
 
 def flagFileName = (context.expand('${#TestSuite#LogFolder}')+"flag.txt");
@@ -4556,6 +4667,9 @@ def filterCode(wsdlstring){
 		}else{
 			code = "Error"
 		}
+	}
+	if(strlen &lt; 10){
+		code = "Error"
 	}
 }
 
@@ -4726,6 +4840,9 @@ def filterCode(wsdlstring){
 			code = "Error"
 		}
 	}
+	if(strlen &lt; 10){
+		code = "Error"
+	}
 }
 
 def flagFileName = (context.expand('${#TestSuite#LogFolder}')+"flag.txt");
@@ -4855,6 +4972,9 @@ def filterCode(wsdlstring){
 			code = "Error"
 		}
 	}
+	if(strlen &lt; 10){
+		code = "Error"
+	}
 }
 
 def flagFileName = (context.expand('${#TestSuite#LogFolder}')+"flag.txt");
@@ -4955,6 +5075,9 @@ def filterCode(wsdlstring){
 			code = "Error"
 		}
 	}
+	if(strlen &lt; 10){
+		code = "Error"
+	}
 }
 
 def flagFileName = (context.expand('${#TestSuite#LogFolder}')+"flag.txt");
@@ -5040,6 +5163,9 @@ def filterCode(wsdlstring){
 		}else{
 			code = "Error"
 		}
+	}
+	if(strlen &lt; 10){
+		code = "Error"
 	}
 }
 
@@ -5164,6 +5290,9 @@ def filterCode(wsdlstring){
 			code = "Error"
 		}
 	}
+	if(strlen &lt; 10){
+		code = "Error"
+	}
 }
 
 def flagFileName = (context.expand('${#TestSuite#LogFolder}')+"flag.txt");
@@ -5244,6 +5373,9 @@ def filterCode(wsdlstring){
 		}else{
 			code = "Error"
 		}
+	}
+	if(strlen &lt; 10){
+		code = "Error"
 	}
 }
 
@@ -5343,6 +5475,9 @@ def filterCode(wsdlstring){
 			code = "Error"
 		}
 	}
+	if(strlen &lt; 10){
+		code = "Error"
+	}
 }
 
 def flagFileName = (context.expand('${#TestSuite#LogFolder}')+"flag.txt");
@@ -5424,6 +5559,9 @@ def filterCode(wsdlstring){
 			code = "Error"
 		}
 	}
+	if(strlen &lt; 10){
+		code = "Error"
+	}
 }
 
 def flagFileName = (context.expand('${#TestSuite#LogFolder}')+"flag.txt");
@@ -5502,6 +5640,9 @@ def filterCode(wsdlstring){
 		}else{
 			code = "Error"
 		}
+	}
+	if(strlen &lt; 10){
+		code = "Error"
 	}
 }
 
@@ -5588,6 +5729,9 @@ def filterCode(wsdlstring){
 		}else{
 			code = "Error"
 		}
+	}
+	if(strlen &lt; 10){
+		code = "Error"
 	}
 }
 
@@ -5701,6 +5845,9 @@ def filterCode(wsdlstring){
 			code = "Error"
 		}
 	}
+	if(strlen &lt; 10){
+		code = "Error"
+	}
 }
 
 def flagFileName = (context.expand('${#TestSuite#LogFolder}')+"flag.txt");
@@ -5808,6 +5955,9 @@ def filterCode(wsdlstring){
 			code = "Error"
 		}
 	}
+	if(strlen &lt; 10){
+		code = "Error"
+	}
 }
 
 def flagFileName = (context.expand('${#TestSuite#LogFolder}')+"flag.txt");
@@ -5891,6 +6041,9 @@ def filterCode(wsdlstring){
 			code = "Error"
 		}
 	}
+	if(strlen &lt; 10){
+		code = "Error"
+	}
 }
 
 def flagFileName = (context.expand('${#TestSuite#LogFolder}')+"flag.txt");
@@ -5972,6 +6125,9 @@ def filterCode(wsdlstring){
 		}else{
 			code = "Error"
 		}
+	}
+	if(strlen &lt; 10){
+		code = "Error"
 	}
 }
 
@@ -6073,6 +6229,9 @@ def filterCode(wsdlstring){
 			code = "Error"
 		}
 	}
+	if(strlen &lt; 10){
+		code = "Error"
+	}
 }
 
 def flagFileName = (context.expand('${#TestSuite#LogFolder}')+"flag.txt");
@@ -6151,6 +6310,9 @@ def filterCode(wsdlstring){
 		}else{
 			code = "Error"
 		}
+	}
+	if(strlen &lt; 10){
+		code = "Error"
 	}
 }
 
@@ -6234,6 +6396,9 @@ def filterCode(wsdlstring){
 		}else{
 			code = "Error"
 		}
+	}
+	if(strlen &lt; 10){
+		code = "Error"
 	}
 }
 
@@ -6338,6 +6503,9 @@ def filterCode(wsdlstring){
 			code = "Error"
 		}
 	}
+	if(strlen &lt; 10){
+		code = "Error"
+	}
 }
 
 def flagFileName = (context.expand('${#TestSuite#LogFolder}')+"flag.txt");
@@ -6421,6 +6589,9 @@ def filterCode(wsdlstring){
 			code = "Error"
 		}
 	}
+	if(strlen &lt; 10){
+		code = "Error"
+	}
 }
 
 def flagFileName = (context.expand('${#TestSuite#LogFolder}')+"flag.txt");
@@ -6501,6 +6672,9 @@ def filterCode(wsdlstring){
 		}else{
 			code = "Error"
 		}
+	}
+	if(strlen &lt; 10){
+		code = "Error"
 	}
 }
 
@@ -6589,6 +6763,9 @@ def filterCode(wsdlstring){
 		}else{
 			code = "Error"
 		}
+	}
+	if(strlen &lt; 10){
+		code = "Error"
 	}
 }
 
@@ -6707,6 +6884,9 @@ def filterCode(wsdlstring){
 			code = "Error"
 		}
 	}
+	if(strlen &lt; 10){
+		code = "Error"
+	}
 }
 
 def flagFileName = (context.expand('${#TestSuite#LogFolder}')+"flag.txt");
@@ -6788,6 +6968,9 @@ def filterCode(wsdlstring){
 		}else{
 			code = "Error"
 		}
+	}
+	if(strlen &lt; 10){
+		code = "Error"
 	}
 }
 
@@ -6885,6 +7068,9 @@ def filterCode(wsdlstring){
 			code = "Error"
 		}
 	}
+	if(strlen &lt; 10){
+		code = "Error"
+	}
 }
 
 def flagFileName = (context.expand('${#TestSuite#LogFolder}')+"flag.txt");
@@ -6966,6 +7152,9 @@ def filterCode(wsdlstring){
 			code = "Error"
 		}
 	}
+	if(strlen &lt; 10){
+		code = "Error"
+	}
 }
 
 def flagFileName = (context.expand('${#TestSuite#LogFolder}')+"flag.txt");
@@ -7046,6 +7235,9 @@ def filterCode(wsdlstring){
 			code = "Error"
 		}
 	}
+	if(strlen &lt; 10){
+		code = "Error"
+	}
 }
 
 def flagFileName = (context.expand('${#TestSuite#LogFolder}')+"flag.txt");
@@ -7123,6 +7315,9 @@ def filterCode(wsdlstring){
 		}else{
 			code = "Error"
 		}
+	}
+	if(strlen &lt; 10){
+		code = "Error"
 	}
 }
 
@@ -7207,6 +7402,9 @@ def filterCode(wsdlstring){
 			code = "Error"
 		}
 	}
+	if(strlen &lt; 10){
+		code = "Error"
+	}
 }
 
 def flagFileName = (context.expand('${#TestSuite#LogFolder}')+"flag.txt");
@@ -7290,6 +7488,9 @@ def filterCode(wsdlstring){
 			code = "Error"
 		}
 	}
+	if(strlen &lt; 10){
+		code = "Error"
+	}
 }
 
 def flagFileName = (context.expand('${#TestSuite#LogFolder}')+"flag.txt");
@@ -7372,6 +7573,9 @@ def filterCode(wsdlstring){
 		}else{
 			code = "Error"
 		}
+	}
+	if(strlen &lt; 10){
+		code = "Error"
 	}
 }
 
@@ -7509,6 +7713,9 @@ def filterCode(wsdlstring){
 			code = "Error"
 		}
 	}
+	if(strlen &lt; 10){
+		code = "Error"
+	}
 }
 
 def flagFileName = (context.expand('${#TestSuite#LogFolder}')+"flag.txt");
@@ -7544,7 +7751,7 @@ writableWorkbook.close();
 	e.printStackTrace();
 	log.info(e)
 }
-</script></con:config></con:testStep><con:properties/><con:reportParameters/></con:testCase><con:testCase failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="messageAdd" searchProperties="true"><con:settings/><con:testStep type="datasource" name="DataSource"><con:settings/><con:config xsi:type="con:DataSourceStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:dataSource type="Grid"><con:configuration><row><![CDATA[<xml-fragment><con:entry xmlns:con="http://eviware.com/soapui/config">2</con:entry><con:entry xmlns:con="http://eviware.com/soapui/config">1</con:entry><con:entry xmlns:con="http://eviware.com/soapui/config">cffc6b5609244b63b5a42e9e707d4bf1</con:entry><con:entry xmlns:con="http://eviware.com/soapui/config">今天天气不错</con:entry><con:entry xmlns:con="http://eviware.com/soapui/config">zstestent01655</con:entry><con:entry xmlns:con="http://eviware.com/soapui/config">18001275149</con:entry><con:entry xmlns:con="http://eviware.com/soapui/config">00000</con:entry></xml-fragment>]]></row><row><![CDATA[<xml-fragment><con:entry xmlns:con="http://eviware.com/soapui/config">2</con:entry><con:entry xmlns:con="http://eviware.com/soapui/config">1</con:entry><con:entry xmlns:con="http://eviware.com/soapui/config">cffc6b5609244b63b5a42e9e707d4bf1</con:entry><con:entry xmlns:con="http://eviware.com/soapui/config">测试测试</con:entry><con:entry xmlns:con="http://eviware.com/soapui/config">111</con:entry><con:entry xmlns:con="http://eviware.com/soapui/config">13370166157</con:entry></xml-fragment>]]></row></con:configuration></con:dataSource><con:property>userId</con:property><con:property>entId</con:property><con:property>entKey</con:property><con:property>content</con:property><con:property>recName</con:property><con:property>terminal</con:property><con:property>expectedcode</con:property><con:restartOnRun>true</con:restartOnRun></con:config></con:testStep><con:testStep type="restrequest" name="messageAdd"><con:settings/><con:config service="Message" resourcePath="/message/add" methodName="Method 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="messageAdd" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>http://192.168.12.170:10000</con:endpoint><con:request>{
+</script></con:config></con:testStep><con:properties/><con:reportParameters/></con:testCase><con:testCase failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="messageAdd" searchProperties="true"><con:settings/><con:testStep type="datasource" name="DataSource"><con:settings/><con:config xsi:type="con:DataSourceStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:dataSource type="Grid"><con:configuration><row><![CDATA[<xml-fragment><con:entry xmlns:con="http://eviware.com/soapui/config">2</con:entry><con:entry xmlns:con="http://eviware.com/soapui/config">1</con:entry><con:entry xmlns:con="http://eviware.com/soapui/config">cffc6b5609244b63b5a42e9e707d4bf1</con:entry><con:entry xmlns:con="http://eviware.com/soapui/config">今天天气不错</con:entry><con:entry xmlns:con="http://eviware.com/soapui/config">zstestent01655</con:entry><con:entry xmlns:con="http://eviware.com/soapui/config">18001275149</con:entry><con:entry xmlns:con="http://eviware.com/soapui/config">00000</con:entry></xml-fragment>]]></row><row><![CDATA[<xml-fragment><con:entry xmlns:con="http://eviware.com/soapui/config">8</con:entry><con:entry xmlns:con="http://eviware.com/soapui/config">2</con:entry><con:entry xmlns:con="http://eviware.com/soapui/config">cffc6b5609244b63b5a42e9e707d4bf1</con:entry><con:entry xmlns:con="http://eviware.com/soapui/config">测试测试</con:entry><con:entry xmlns:con="http://eviware.com/soapui/config">111</con:entry><con:entry xmlns:con="http://eviware.com/soapui/config">13370166157</con:entry></xml-fragment>]]></row></con:configuration></con:dataSource><con:property>userId</con:property><con:property>entId</con:property><con:property>entKey</con:property><con:property>content</con:property><con:property>recName</con:property><con:property>terminal</con:property><con:property>expectedcode</con:property><con:restartOnRun>true</con:restartOnRun></con:config></con:testStep><con:testStep type="restrequest" name="messageAdd"><con:settings/><con:config service="Message" resourcePath="/message/add" methodName="Method 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="messageAdd" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:encoding>UTF-8</con:encoding><con:endpoint>http://192.168.12.170:10000</con:endpoint><con:request>{
 "userId":${DataSource#userId},
 "entId":${DataSource#entId},
 "entKey":${DataSource#entKey},
@@ -7597,6 +7804,9 @@ def filterCode(wsdlstring){
 		}else{
 			code = "Error"
 		}
+	}
+	if(strlen &lt; 10){
+		code = "Error"
 	}
 }
 
@@ -7677,6 +7887,9 @@ def filterCode(wsdlstring){
 		}else{
 			code = "Error"
 		}
+	}
+	if(strlen &lt; 10){
+		code = "Error"
 	}
 }
 
@@ -7765,6 +7978,9 @@ def filterCode(wsdlstring){
 			code = "Error"
 		}
 	}
+	if(strlen &lt; 10){
+		code = "Error"
+	}
 }
 
 def flagFileName = (context.expand('${#TestSuite#LogFolder}')+"flag.txt");
@@ -7843,6 +8059,9 @@ def filterCode(wsdlstring){
 		}else{
 			code = "Error"
 		}
+	}
+	if(strlen &lt; 10){
+		code = "Error"
 	}
 }
 
@@ -7923,6 +8142,9 @@ def filterCode(wsdlstring){
 		}else{
 			code = "Error"
 		}
+	}
+	if(strlen &lt; 10){
+		code = "Error"
 	}
 }
 
@@ -8006,6 +8228,9 @@ def filterCode(wsdlstring){
 			code = "Error"
 		}
 	}
+	if(strlen &lt; 10){
+		code = "Error"
+	}
 }
 
 def flagFileName = (context.expand('${#TestSuite#LogFolder}')+"flag.txt");
@@ -8087,6 +8312,9 @@ def filterCode(wsdlstring){
 		}else{
 			code = "Error"
 		}
+	}
+	if(strlen &lt; 10){
+		code = "Error"
 	}
 }
 
@@ -8191,6 +8419,9 @@ def filterCode(wsdlstring){
 			code = "Error"
 		}
 	}
+	if(strlen &lt; 10){
+		code = "Error"
+	}
 }
 
 def flagFileName = (context.expand('${#TestSuite#LogFolder}')+"flag.txt");
@@ -8270,6 +8501,9 @@ def filterCode(wsdlstring){
 		}else{
 			code = "Error"
 		}
+	}
+	if(strlen &lt; 10){
+		code = "Error"
 	}
 }
 
@@ -8354,6 +8588,9 @@ def filterCode(wsdlstring){
 			code = "Error"
 		}
 	}
+	if(strlen &lt; 10){
+		code = "Error"
+	}
 }
 
 def flagFileName = (context.expand('${#TestSuite#LogFolder}')+"flag.txt");
@@ -8436,6 +8673,9 @@ def filterCode(wsdlstring){
 		}else{
 			code = "Error"
 		}
+	}
+	if(strlen &lt; 10){
+		code = "Error"
 	}
 }
 
@@ -8529,7 +8769,10 @@ writableWorkbook.write();
 }finally{
 	writableWorkbook.close();
 }
-</con:tearDownScript><con:reportParameters/></con:testSuite><con:testSuite name="Basis"><con:settings/><con:runType>SEQUENTIAL</con:runType><con:testCase failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="logoAdd" searchProperties="true" id="5ab1101b-7162-494c-b6e6-f6aec4bcd6a4"><con:settings/><con:testStep type="datasource" name="DataSource" id="f14567e7-2da6-47b5-9766-8ce9e7c3494d"><con:settings/><con:config xsi:type="con:DataSourceStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:dataSource type="Grid"><con:configuration><row><![CDATA[<xml-fragment><con:entry xmlns:con="http://eviware.com/soapui/config">8</con:entry><con:entry xmlns:con="http://eviware.com/soapui/config">http://hehe.com</con:entry><con:entry xmlns:con="http://eviware.com/soapui/config">00000</con:entry></xml-fragment>]]></row></con:configuration></con:dataSource><con:property>entId</con:property><con:property>logoUrl</con:property><con:property>expectedcode</con:property><con:restartOnRun>true</con:restartOnRun></con:config></con:testStep><con:testStep type="restrequest" name="logoAdd"><con:settings/><con:config service="Basis" resourcePath="/basis/logo/add" methodName="Add" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="logoAdd" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>http://192.168.12.170:10000</con:endpoint><con:request>{"entId":2, "logoUrl ":"http://XXXX" }</con:request><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="groovy" name="Output"><con:settings/><con:config><script>import java.io.*;
+</con:tearDownScript><con:reportParameters/></con:testSuite><con:testSuite name="Basis"><con:settings/><con:runType>SEQUENTIAL</con:runType><con:testCase failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="logoAdd" searchProperties="true" id="5ab1101b-7162-494c-b6e6-f6aec4bcd6a4"><con:settings/><con:testStep type="datasource" name="DataSource" id="f14567e7-2da6-47b5-9766-8ce9e7c3494d"><con:settings/><con:config xsi:type="con:DataSourceStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:dataSource type="Grid"><con:configuration><row><![CDATA[<xml-fragment><con:entry xmlns:con="http://eviware.com/soapui/config">123</con:entry><con:entry xmlns:con="http://eviware.com/soapui/config">http://hehe.com</con:entry><con:entry xmlns:con="http://eviware.com/soapui/config">00000</con:entry></xml-fragment>]]></row><row><![CDATA[<xml-fragment><con:entry xmlns:con="http://eviware.com/soapui/config">null</con:entry><con:entry xmlns:con="http://eviware.com/soapui/config">null</con:entry><con:entry xmlns:con="http://eviware.com/soapui/config">00008</con:entry></xml-fragment>]]></row><row><![CDATA[<xml-fragment><con:entry xmlns:con="http://eviware.com/soapui/config">null</con:entry><con:entry xmlns:con="http://eviware.com/soapui/config">http://hehe.com</con:entry><con:entry xmlns:con="http://eviware.com/soapui/config">00008</con:entry></xml-fragment>]]></row><row><![CDATA[<xml-fragment><con:entry xmlns:con="http://eviware.com/soapui/config">8</con:entry><con:entry xmlns:con="http://eviware.com/soapui/config">null</con:entry><con:entry xmlns:con="http://eviware.com/soapui/config">00008</con:entry></xml-fragment>]]></row><row><![CDATA[<xml-fragment><con:entry xmlns:con="http://eviware.com/soapui/config">12312412312</con:entry><con:entry xmlns:con="http://eviware.com/soapui/config">http://hehe.com</con:entry><con:entry xmlns:con="http://eviware.com/soapui/config">00010</con:entry></xml-fragment>]]></row><row><![CDATA[<xml-fragment><con:entry xmlns:con="http://eviware.com/soapui/config">999872</con:entry><con:entry xmlns:con="http://eviware.com/soapui/config">http://hehe.com</con:entry><con:entry xmlns:con="http://eviware.com/soapui/config">00103</con:entry></xml-fragment>]]></row><row><![CDATA[<xml-fragment><con:entry xmlns:con="http://eviware.com/soapui/config">asdas</con:entry><con:entry xmlns:con="http://eviware.com/soapui/config">http://hehe.com</con:entry><con:entry xmlns:con="http://eviware.com/soapui/config">00010</con:entry></xml-fragment>]]></row><row><![CDATA[<xml-fragment><con:entry xmlns:con="http://eviware.com/soapui/config">-1123</con:entry><con:entry xmlns:con="http://eviware.com/soapui/config">http://hehe.com</con:entry><con:entry xmlns:con="http://eviware.com/soapui/config">00015</con:entry></xml-fragment>]]></row><row><![CDATA[<xml-fragment><con:entry xmlns:con="http://eviware.com/soapui/config">0</con:entry><con:entry xmlns:con="http://eviware.com/soapui/config">http://hehe.com</con:entry><con:entry xmlns:con="http://eviware.com/soapui/config">00009</con:entry></xml-fragment>]]></row><row><![CDATA[<xml-fragment><con:entry xmlns:con="http://eviware.com/soapui/config">8</con:entry><con:entry xmlns:con="http://eviware.com/soapui/config">http://hehe.com</con:entry><con:entry xmlns:con="http://eviware.com/soapui/config">00103</con:entry></xml-fragment>]]></row></con:configuration></con:dataSource><con:property>entId</con:property><con:property>logoUrl</con:property><con:property>expectedcode</con:property><con:restartOnRun>true</con:restartOnRun></con:config></con:testStep><con:testStep type="restrequest" name="logoAdd"><con:settings/><con:config service="Basis" resourcePath="/basis/logo/add" methodName="Add" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="logoAdd" mediaType="application/json" postQueryString="false"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>http://192.168.12.170:10000</con:endpoint><con:request>{
+"entId":${DataSource#entId},
+"logoUrl":"${DataSource#logoUrl}"
+}</con:request><con:originalUri>http://192.168.12.170/basis/logo/add</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters/></con:restRequest></con:config></con:testStep><con:testStep type="groovy" name="Output"><con:settings/><con:config><script>import java.io.*;
 import jxl.*;
 import jxl.write.*;
 import java.util.*;
@@ -8571,6 +8814,9 @@ def filterCode(wsdlstring){
 		}else{
 			code = "Error"
 		}
+	}
+	if(strlen &lt; 10){
+		code = "Error"
 	}
 }
 
@@ -8608,7 +8854,7 @@ writableWorkbook.close();
 	e.printStackTrace();
 	log.info(e)
 }
-</script></con:config></con:testStep><con:testStep type="datasourceloop" name="DataSource Loop"><con:settings/><con:config><dataSourceStep>DataSource</dataSourceStep><targetStep>logoAdd</targetStep></con:config></con:testStep><con:properties/><con:reportParameters/><con:breakPoints><con:testStepId>f14567e7-2da6-47b5-9766-8ce9e7c3494d</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints></con:testCase><con:testCase failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="logoQuery" searchProperties="true" id="d20e5572-9cfa-4633-a081-7706cb1023de"><con:settings/><con:testStep type="datasource" name="DataSource" id="74bdf12e-e854-4141-9d56-0f5de6722ba2"><con:settings/><con:config xsi:type="con:DataSourceStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:dataSource type="Grid"><con:configuration><row><![CDATA[<xml-fragment><con:entry xmlns:con="http://eviware.com/soapui/config">8</con:entry><con:entry xmlns:con="http://eviware.com/soapui/config">00000</con:entry></xml-fragment>]]></row></con:configuration></con:dataSource><con:property>entId</con:property><con:property>expectedcode</con:property><con:restartOnRun>true</con:restartOnRun></con:config></con:testStep><con:testStep type="restrequest" name="logoQuery"><con:settings/><con:config service="Basis" resourcePath="/basis/logo/query/{entId}" methodName="Method 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="logoQuery" mediaType="application/json"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>http://192.168.12.170:10000</con:endpoint><con:request/><con:originalUri>http://192.168.12.170/basis/logo/query/123</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters><entry key="entId" value="${DataSource#entId}" xmlns="http://eviware.com/soapui/config"/></con:parameters></con:restRequest></con:config></con:testStep><con:testStep type="groovy" name="Output"><con:settings/><con:config><script>import java.io.*;
+</script></con:config></con:testStep><con:testStep type="datasourceloop" name="DataSource Loop"><con:settings/><con:config><dataSourceStep>DataSource</dataSourceStep><targetStep>logoAdd</targetStep></con:config></con:testStep><con:properties/><con:reportParameters/><con:breakPoints><con:testStepId>f14567e7-2da6-47b5-9766-8ce9e7c3494d</con:testStepId><con:status>NONE</con:status><con:properties/></con:breakPoints></con:testCase><con:testCase failOnError="true" failTestCaseOnErrors="true" keepSession="false" maxResults="0" name="logoQuery" searchProperties="true" id="d20e5572-9cfa-4633-a081-7706cb1023de"><con:settings/><con:testStep type="datasource" name="DataSource" id="74bdf12e-e854-4141-9d56-0f5de6722ba2"><con:settings/><con:config xsi:type="con:DataSourceStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:dataSource type="Grid"><con:configuration><row><![CDATA[<xml-fragment><con:entry xmlns:con="http://eviware.com/soapui/config">123</con:entry><con:entry xmlns:con="http://eviware.com/soapui/config">00000</con:entry></xml-fragment>]]></row><row><![CDATA[<xml-fragment><con:entry xmlns:con="http://eviware.com/soapui/config">8</con:entry><con:entry xmlns:con="http://eviware.com/soapui/config">00103</con:entry></xml-fragment>]]></row><row>&lt;xml-fragment>&lt;con:entry xmlns:con="http://eviware.com/soapui/config"/>&lt;con:entry xmlns:con="http://eviware.com/soapui/config">00002&lt;/con:entry>&lt;/xml-fragment></row><row><![CDATA[<xml-fragment><con:entry xmlns:con="http://eviware.com/soapui/config">aaa</con:entry><con:entry xmlns:con="http://eviware.com/soapui/config">00010</con:entry></xml-fragment>]]></row></con:configuration></con:dataSource><con:property>entId</con:property><con:property>expectedcode</con:property><con:restartOnRun>true</con:restartOnRun></con:config></con:testStep><con:testStep type="restrequest" name="logoQuery"><con:settings/><con:config service="Basis" resourcePath="/basis/logo/query/{entId}" methodName="Method 1" xsi:type="con:RestRequestStep" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><con:restRequest name="logoQuery" mediaType="application/json"><con:settings><con:setting id="com.eviware.soapui.impl.wsdl.WsdlRequest@request-headers">&lt;xml-fragment/></con:setting></con:settings><con:endpoint>http://192.168.12.170:10000</con:endpoint><con:request/><con:originalUri>http://192.168.12.170/basis/logo/query/123</con:originalUri><con:credentials><con:authType>No Authorization</con:authType></con:credentials><con:jmsConfig JMSDeliveryMode="PERSISTENT"/><con:jmsPropertyConfig/><con:parameters><entry key="entId" value="${DataSource#entId}" xmlns="http://eviware.com/soapui/config"/></con:parameters></con:restRequest></con:config></con:testStep><con:testStep type="groovy" name="Output"><con:settings/><con:config><script>import java.io.*;
 import jxl.*;
 import jxl.write.*;
 import java.util.*;
@@ -8650,6 +8896,9 @@ def filterCode(wsdlstring){
 		}else{
 			code = "Error"
 		}
+	}
+	if(strlen &lt; 10){
+		code = "Error"
 	}
 }
 
@@ -8733,6 +8982,9 @@ def filterCode(wsdlstring){
 			code = "Error"
 		}
 	}
+	if(strlen &lt; 10){
+		code = "Error"
+	}
 }
 
 def flagFileName = (context.expand('${#TestSuite#LogFolder}')+"flag.txt");
@@ -8813,6 +9065,9 @@ def filterCode(wsdlstring){
 			code = "Error"
 		}
 	}
+	if(strlen &lt; 10){
+		code = "Error"
+	}
 }
 
 def flagFileName = (context.expand('${#TestSuite#LogFolder}')+"flag.txt");
@@ -8892,6 +9147,9 @@ def filterCode(wsdlstring){
 			code = "Error"
 		}
 	}
+	if(strlen &lt; 10){
+		code = "Error"
+	}
 }
 
 def flagFileName = (context.expand('${#TestSuite#LogFolder}')+"flag.txt");
@@ -8969,6 +9227,9 @@ def filterCode(wsdlstring){
 		}else{
 			code = "Error"
 		}
+	}
+	if(strlen &lt; 10){
+		code = "Error"
 	}
 }
 
@@ -9050,6 +9311,9 @@ def filterCode(wsdlstring){
 			code = "Error"
 		}
 	}
+	if(strlen &lt; 10){
+		code = "Error"
+	}
 }
 
 def flagFileName = (context.expand('${#TestSuite#LogFolder}')+"flag.txt");
@@ -9127,6 +9391,9 @@ def filterCode(wsdlstring){
 		}else{
 			code = "Error"
 		}
+	}
+	if(strlen &lt; 10){
+		code = "Error"
 	}
 }
 
@@ -9210,6 +9477,9 @@ def filterCode(wsdlstring){
 			code = "Error"
 		}
 	}
+	if(strlen &lt; 10){
+		code = "Error"
+	}
 }
 
 def flagFileName = (context.expand('${#TestSuite#LogFolder}')+"flag.txt");
@@ -9288,6 +9558,9 @@ def filterCode(wsdlstring){
 		}else{
 			code = "Error"
 		}
+	}
+	if(strlen &lt; 10){
+		code = "Error"
 	}
 }
 
